@@ -4,7 +4,7 @@
 #
 Name     : pypi-gssapi
 Version  : 1.8.2
-Release  : 22
+Release  : 23
 URL      : https://files.pythonhosted.org/packages/27/71/5110b5af9354e5eb66a30dbaa6bac2a5e3013057120544830a849dbd087b/gssapi-1.8.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/27/71/5110b5af9354e5eb66a30dbaa6bac2a5e3013057120544830a849dbd087b/gssapi-1.8.2.tar.gz
 Summary  : Python GSSAPI Wrapper
