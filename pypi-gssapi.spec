@@ -5,7 +5,7 @@
 #
 Name     : pypi-gssapi
 Version  : 1.8.2
-Release  : 24
+Release  : 25
 URL      : https://files.pythonhosted.org/packages/27/71/5110b5af9354e5eb66a30dbaa6bac2a5e3013057120544830a849dbd087b/gssapi-1.8.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/27/71/5110b5af9354e5eb66a30dbaa6bac2a5e3013057120544830a849dbd087b/gssapi-1.8.2.tar.gz
 Summary  : Python GSSAPI Wrapper
@@ -17,6 +17,7 @@ Requires: pypi-gssapi-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
 BuildRequires : krb5-dev
 BuildRequires : pypi(cython)
+BuildRequires : pypi(setuptools)
 # Suppress stripping binaries
 %define __strip /bin/true
 %define debug_package %{nil}
@@ -68,7 +69,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1683038765
+export SOURCE_DATE_EPOCH=1685558061
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
