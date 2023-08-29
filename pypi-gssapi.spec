@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-gssapi
-Version  : 1.8.2
-Release  : 25
-URL      : https://files.pythonhosted.org/packages/27/71/5110b5af9354e5eb66a30dbaa6bac2a5e3013057120544830a849dbd087b/gssapi-1.8.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/27/71/5110b5af9354e5eb66a30dbaa6bac2a5e3013057120544830a849dbd087b/gssapi-1.8.2.tar.gz
+Version  : 1.8.3
+Release  : 26
+URL      : https://files.pythonhosted.org/packages/13/e7/dd88180cfcf243be62308707cc2f5dae4c726c68f30b9367931c794fda16/gssapi-1.8.3.tar.gz
+Source0  : https://files.pythonhosted.org/packages/13/e7/dd88180cfcf243be62308707cc2f5dae4c726c68f30b9367931c794fda16/gssapi-1.8.3.tar.gz
 Summary  : Python GSSAPI Wrapper
 Group    : Development/Tools
 License  : ISC
@@ -58,10 +58,10 @@ python3 components for the pypi-gssapi package.
 
 
 %prep
-%setup -q -n gssapi-1.8.2
-cd %{_builddir}/gssapi-1.8.2
+%setup -q -n gssapi-1.8.3
+cd %{_builddir}/gssapi-1.8.3
 pushd ..
-cp -a gssapi-1.8.2 buildavx2
+cp -a gssapi-1.8.3 buildavx2
 popd
 
 %build
@@ -69,7 +69,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1685558061
+export SOURCE_DATE_EPOCH=1693324028
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
